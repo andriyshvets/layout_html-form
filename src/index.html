@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./main.js"></script>
   </head>
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
@@ -17,37 +18,52 @@
 
         <div class="div">
           <label for="surname" class="form-field">Surname:</label>
-          <input type="text" name="surname" id="surname">
+          <input
+            type="text"
+            name="surname"
+            id="surname"
+          >
         </div>
 
         <div class="div">
           <label for="name" class="form-field">Name:</label>
-          <input type="text" name="name" id="name">
+          <input
+            type="text"
+            name="name"
+            id="name"
+          >
         </div>
 
         <div class="div">
           <label for="age" class="form-field">How old are You?</label>
-          <input type="number"
-          name="age"
-          id="age"
-          min="1"
-          max="100"
-          value="12"
+          <input
+            type="number"
+            name="age"
+            id="age"
+            min="1"
+            max="100"
+            value="12"
           >
         </div>
 
         <div class="div">
           <label for="birthday">Full date of birth:</label>
-          <input type="date" name="birthday" id="birthday">
+          <input
+            type="date"
+            name="birthday"
+            id="birthday"
+          >
         </div>
 
         <div class="div">
           <label for="terms-n-conditions">I accept the term of the agreement</label>
-          <input type="checkbox"
-          name="terms-n-conditions"
-          id="terms-n-conditions"
+          <input
+            type="checkbox"
+            name="terms-n-conditions"
+            id="terms-n-conditions"
           >
         </div>
+
       </fieldset>
 
       <fieldset>
@@ -56,16 +72,20 @@
         <div class="div">
           <label for="email">E-mail: </label>
           <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="email@example.com"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@example.com"
           >
         </div>
 
         <div class="div">
           <label for="password">Password:</label>
-          <input type="password" name="password" id="password">
+          <input
+            type="password"
+            name="password"
+            id="password"
+          >
         </div>
 
       </fieldset>
@@ -74,15 +94,23 @@
         <legend>An interesting fact about you!</legend>
 
         <div class="div">
-
+          
           <label>Do you love cats?</label>
           <label>
-            <input type="radio" name="que1" value="Yes">
+            <input
+              type="radio"
+              name="que1"
+              value="Yes"
+            >
           Yes
           </label>
 
           <label>
-            <input type="radio" name="que1" value="No">
+            <input
+              type="radio"
+              name="que1"
+              value="No"
+            >
           No
           </label>
 
@@ -90,12 +118,20 @@
 
         <div class="div">
           <label for="color">What is your favorite color?</label>
-          <input type="color" name="color" id="color">
+          <input
+            type="color"
+            name="color"
+            id="color"
+          >
         </div>
 
         <div class="div">
           <label for="bed">What time do you go to bed?</label>
-          <input type="time" name="bed" id="bed">
+          <input
+            type="time"
+            name="bed"
+            id="bed"
+          >
         </div>
 
         <div class="div">
@@ -110,11 +146,11 @@
         <label for="work">
           How do you rate our work?
           <input type="range"
-          name="work"
-          id="work"
-          min="0"
-          max="100"
-          value="0"
+            name="work"
+            id="work"
+            min="0"
+            max="100"
+            value="0"
           >
         </label>
       </fieldset>
@@ -124,10 +160,11 @@
 
         <div class="div">
           <label for="comments">Comments:</label>
-          <textarea name="comments"
-          id="comments"
-          cols="20"
-          rows="2"
+          <textarea
+            name="comments"
+            id="comments"
+            cols="20"
+            rows="2"
           ></textarea>
         </div>
 
@@ -138,10 +175,11 @@
             <option value="no">No</option>
           </select>
         </div>
+
       </fieldset>
 
       <button type="submit">Submit</button>
     </form>
-    <script type="text/javascript" src="./main.js"></script>
+
   </body>
 </html>
